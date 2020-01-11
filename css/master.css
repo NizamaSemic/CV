@@ -1,0 +1,415 @@
+html { 
+    background: url(../images/g.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    scroll-behavior: smooth;
+    
+  }
+  
+  body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+ }
+ 
+ .head2{
+border: inline 1px;
+ }
+ 
+.profileContent {
+ 
+background-color: rgba(0, 0, 0, 0.8);
+color:silver;
+padding: 30px; 
+margin:auto;
+text-align: center
+
+
+}
+.profilee{
+
+height: 160px;
+border-radius: 50%;
+shape-image-threshold: inherit;
+width: 160px;
+}
+
+ul.nav{
+  list-style-type: none;
+  overflow: hidden;
+  background-color:rgba(0, 0, 0, 0.4);
+  font: 100%;
+  color: silver;
+ margin: auto;
+  text-align: center
+}
+ul.nav li{
+  float: left;
+}
+ul.nav a{
+  display: block;
+  color: silver;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+
+
+#educationContent {
+ background-color: rgba(0, 0, 0, 0.9);
+ color: silver;
+ padding: 30px;
+margin: auto;
+ text-align: center;
+}
+#workExperienceContent{ 
+ background-color: rgba(0, 0, 0, 0.9);
+  color: silver;
+  padding: 30px;
+  margin: auto;
+  text-align: center; 
+  
+  
+}
+
+
+body { background-color: rgba(0, 0, 0, 0.9);margin:2%; }
+
+.SkillBar {
+    width: 90%;
+    height: 50px;
+    position: relative;
+    background: rgba(17, 17, 17, .3);
+    margin: 20px auto;
+}
+#Skill-HTML {
+    width: 95%;
+    animation: Animate-HTML 4s;
+    -webkit-animation: Animate-HTML 4s;
+    -moz-animation: Animate-HTML 4s;
+    -o-animation: Animate-HTML 4s;
+    height: 50px;
+    position: absolute;
+    background-color: #800000;
+}
+@keyframes Animate-HTML {
+    from {
+    width: 5px;
+}
+to {
+    width: 95%}
+}@-webkit-keyframes Animate-HTML {
+    from {
+    width: 5px;
+}
+to {
+    width: 95%}
+}@-moz-keyframes Animate-HTML {
+    from {
+    width: 5px;
+}
+to {
+    width: 95%}
+}@-o-keyframes Animate-HTML {
+    from {
+    width: 5px;
+}
+to {
+    width: 95%}
+
+}#Skill-CSS {
+    animation: Animate-CSS 4s;
+    -webkit-animation: Animate-CSS 4s;
+    -moz-animation: Animate-CSS 4s;
+    -o-animation: Animate-CSS 4s;
+    width: 78%;
+    height: 50px;
+    position: absolute;
+    background-color: #A52A2A;
+}
+@keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 78%}
+}@-webkit-keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 78%}
+}@-moz-keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 78%}
+}@-o-keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 78%}
+}
+
+
+#Skill-jQuery {
+    animation: Animate-jQuery 5s;
+    -webkit-animation: Animate-jQuery 5s;
+    -moz-animation: Animate-jQuery 5s;
+    -o-animation: Animate-jQuery 5s;
+    width: 55%;
+    height: 50px;
+    position: absolute;
+    background-color: #DC143C;
+}
+@keyframes Animate-jQuery {
+    from {
+    width: 10px;
+}
+to {
+    width: 55%}
+}@-webkit-keyframes Animate-jQuery {
+    from {
+    width: 10px;
+}
+to {
+    width: 55%}
+}@-moz-keyframes Animate-jQuery {
+    from {
+    width: 10px;
+}
+to {
+    width: 55%}
+}@-o-keyframes Animate-jQuery {
+    from {
+    width: 10px;
+}
+to {
+    width: 55%}
+}
+
+
+#Skill-JS {
+    animation: Animate-JS 4s;
+    -webkit-animation: Animate-JS 4s;
+    -moz-animation: Animate-JS 4s;
+    -o-animation: Animate-JS 4s;
+    width: 65%;
+    height: 50px;
+    position: absolute;
+    background-color: #c44e45;
+}
+@keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+}@-webkit-keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+}@-moz-keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+}@-o-keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+}
+
+#Skill-C {
+    animation: Animate-C 5s;
+    -webkit-animation: Animate-C 5s;
+    -moz-animation: Animate-C 5s;
+    -o-animation: Animate-C 5s;
+    width: 55%;
+    height: 50px;
+    position: absolute;
+    background-color: #FF6347;
+}
+@keyframes Animate-C {
+    from {
+    width: 10px;
+}
+to {
+    width: 55%}
+}@-webkit-keyframes Animate-C {
+    from {
+    width: 10px;
+}
+to {
+    width: 55%}
+}@-moz-keyframes Animate-C {
+    from {
+    width: 10px;
+}
+to {
+    width: 55%}
+}@-o-keyframes Animate-C {
+    from {
+    width: 10px;
+}
+to {
+    width: 55%}
+
+}#Skill-JAVA {
+    animation: Animate-JAVA 4s;
+    -webkit-animation: Animate-JAVA 4s;
+    -moz-animation: Animate-JAVA 4s;
+    -o-animation: Animate-JAVA 4s;
+    width: 67%;
+    height: 50px;
+    position: absolute;
+    background-color: #FFA07A;
+}
+@keyframes Animate-JAVA {
+    from {
+    width: 10px;
+}
+to {
+    width: 67%}
+}@-webkit-keyframes Animate-JAVA {
+    from {
+    width: 10px;
+}
+to {
+    width: 67%}
+}@-moz-keyframes Animate-JAVA {
+    from {
+    width: 10px;
+}
+to {
+    width: 25%}
+}@-o-keyframes Animate-JAVA {
+    from {
+    width: 10px;
+}
+to {
+    width: 67%}
+}#Skill-PHP {
+    animation: Animate-PHP 2s;
+    -webkit-animation: Animate-PHP 2s;
+    -moz-animation: Animate-PHP 2s;
+    -o-animation: Animate-PHP 2s;
+    width: 50%;
+    height: 50px;
+    position: absolute;
+    background-color: #D2691E;
+}
+@keyframes Animate-PHP {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}@-webkit-keyframes Animate-PHP {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}@-moz-keyframes Animate-PHP {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}@-o-keyframes Animate-PHP {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}#Skill-SQL {
+    animation: Animate-SQL 4s;
+    -webkit-animation: Animate-SQL 4s;
+    -moz-animation: Animate-SQL 4s;
+    -o-animation: Animate-SQL 4s;
+    width: 80%;
+    height: 50px;
+    position: absolute;
+    background-color: #CD853F;
+}
+@keyframes Animate-SQL {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}@-webkit-keyframes Animate-SQL {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}@-moz-keyframes Animate-SQL {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}@-o-keyframes Animate-SQL {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}
+.Skill-Area {
+    z-index: 1;
+    float: left;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 15px;
+    text-shadow: none;
+    color: #fff;
+    font-family: Lato-Regular, sans-serif;
+    font-size: 18px;
+}
+.PercentText {
+    z-index: 3;
+    position: relative;
+    padding-right: 15px;
+    margin-top: 15px;
+    float: right;
+    text-shadow: none;
+    color: #fff;
+    font-family: Lato-Regular, sans-serif;
+    font-size: 18px;
+}
+
+  
+
+
+
+#aboutMeContent{
+  background-color: rgba(0, 0, 0, 0.9);
+  color: silver;
+  padding: 30px;
+  margin: auto;
+  text-align: center;
+  
+}
+
+#form{
+  background-color: rgba(0, 0, 0, 0.9);
+  color: silver;
+  padding: 40px;
+ margin: auto ;
+ text-align: center;
+
+}
